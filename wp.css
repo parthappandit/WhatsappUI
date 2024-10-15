@@ -46,8 +46,20 @@
     border-radius: 20px 20px 0 0;
     /* background-color: rgba(0, 0, 0, 0.1);   */
 }
-.on{
-    border-radius: 0 20px 0 0;
+.on1{
+    border-radius: 0 0 0 0;
+}
+.on2{
+    border-radius: 0 0 0 0;
+}
+.on3{
+    border-radius: 0 0 0 0;
+}
+.on4{
+    border-radius: 0 0 0 0;
+}
+.on5{
+    border-radius: 0 0 20px 20px;
 }
 .cross{
     top: 0;
