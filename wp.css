@@ -1,0 +1,141 @@
+.bar{
+    font-family: system-ui;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6px;
+
+}
+.items{
+    display: flex;
+    justify-content: end;
+}
+.imgline{
+    gap: 23px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 29px;
+    
+}
+
+.wpname{
+    color: rgb(3, 175, 3);
+}
+.sidebar{
+    position: absolute;
+    top: 20;
+    right: 0;
+    height: 305px;
+    width: 250px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;   
+}
+.sidebar li{
+    width: 100%;
+}
+.optbutt{
+    border: none;
+}
+.libutt{
+    font-size: 17px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    /* background-color: rgba(0, 0, 0, 0.1);   */
+}
+.cross{
+    top: 0;
+    right: 0;
+}
+.menucard{
+    border: 1px solid rgb(219, 212, 212);
+    width: 190px;
+    border-radius: 20px;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+.searchbar{
+    width: 100%;
+    height: 40px;
+    border-radius: 18px;
+    background-color: rgb(228, 224, 219);
+    border: none;
+    font-size: 15px;
+    padding: 12px 20px 12px 40px;
+}
+.search{
+    display: flex;
+    background-color: rgb(228, 224, 219);
+    margin-left: 12px;
+    border-radius: 180px;
+}
+.meta{
+    border-radius: 180px;
+    border: none;
+}
+.metalogo{
+    border-radius: 180px;
+}
+
+.archivelink{
+    margin: 2 0 0 20px;
+    
+}
+.archived{
+    display: flex;
+    background-color: rgb(245, 245, 253);
+    width: 100%;
+    height: 49px;
+    border-radius: 18px;
+    margin-top: 15px;
+}
+.archivetext{
+    font-family: system-ui;
+    margin: 10 0 0 20;   
+}
+.dp{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 100px;
+    margin: 15px 0 0 15px;
+
+}
+.nochat{
+    background-color: rgb(221, 215, 215);
+    height: 100REM;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    border-radius: 2%;
+   
+}
+.closelogo{
+    display: block;
+    margin: 15px 25px 0 0;
+    
+}
+
+.chats{
+    display: flex;
+    justify-content: flex-start;
+}
+.namecontact{
+    font-family: system-ui;
+    margin-left: 15px;
+    margin-bottom: 0;
+    
+}
+.chatinfo{
+    
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 100px;  
+}
+.chatabout{
+    margin-left: 15px;
+}
